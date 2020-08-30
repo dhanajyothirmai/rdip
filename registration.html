@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="css/registration.css">
+    <body  style="margin: 50px;">
+        
+        <a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" alt="IIT-h" width="100px"></a>
+        <a href="https://serc.iiit.ac.in/rdip" style="float: right;font-size:20px; font-weight: bold;"  >RDIP </a>
+        
+        <div>
+            <ul>
+                <li>
+                    <a href="./homepage.html" >Home</a>
+                </li>
+                <li>
+                    <a href="./registration.html">Registration Form</a>
+                </li>
+            </ul>
+        </div><br>
+        <form method="GET" action="./details.html" >
+            <div style="float:left;">
+                <label class="fname" for="username">First name:</label>
+                <input class="nameip" size="30" name="fname" type="text" required />
+            </div>
+            <div style="clear:both;"></div>
+            <br>
+            <div style="float:left;">
+                <label style="margin-left: 12px;" for="username">E-mail:</label>
+                <input style="margin-left: 127px;" size="30" name="email" type="text" required />
+            </div>
+            <div style="clear:both;"></div>
+            <br>
+            <div style="float:left;">
+                <label  for="username">Phone No:</label>
+                <input style="margin-left: 110px; width:227px;" name="phone" type="number" maxlength="10" required />
+            </div>
+            <div style="clear:both;"></div>
+            <br>
+            <div>
+                <label style="margin-left: 10px;">Gender:</label>
+                <input style="margin-left: 120px;background-color:whitesmoke;" type="radio" name="gender" required> 
+                <label>Male</label>
+                <input type="radio" name="gender">
+                <label>Female</label>
+                <input type="radio" name="gender">
+                <label>Other</label>
+            
+            </div>
+            <br>
+            <div>
+                <label style="margin-left: -26px; " >Reason for RDIP:</label>
+                    <label>
+                    <input style="margin-left: 66px; background-color:rgb(240, 235, 235);" name ="courses" type="checkbox" required>
+                    </label>
+                    <label>HTML</label>
+                    <label>
+                        <input type="checkbox" name ="courses">
+                    </label>
+                    
+                    <label>CSS</label>
+                    <label><input type="checkbox" name ="courses"></label>
+                    <label>JavaScript</label>
+
+            </div>
+          <br>
+            <div style="float:left;">
+                <label for="username">College:</label>
+                <input style="margin-left: 130px;"  size="30" type="text" required />
+            </div>
+            <br>
+            <div style="clear:both;"></div>
+            <br>
+            <div>
+                <input  style="margin-left: 20px;" type="checkbox" required>
+                <label  style="margin-left: 80px;" >I declare above details given by me are true</label> 
+            </div>
+            <br>
+            <div>
+            <a style="text-decoration: none;"><input style="margin-left: 5px;border-radius: 5px;padding: 3px 10px " type="submit"></a>
+            <input style="margin-left: 200px;border-radius: 5px;padding: 3px 10px " type="reset">
+        
+            </div>
+
+        </form>
+    </body>
+</html>
